@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans.xsd
+      http://www.springframework.org/schema/aop
+      http://www.springframework.org/schema/aop/spring-aop.xsd
+             "> 
+    <bean id="proxyAspect" class="com.baidu.nuomi.crm.helper.monitorproxy.aspect.ProxyAspect"/>
+    <aop:config>
+        <aop:aspect id="doOpAspect" ref="proxyAspect">
+            <!-- 配置OP准入切面，监控com.baidu.nuomi.crm.*.controller包下所有类或接口的所有方法 -->
+            <aop:pointcut id="entrance" expression="execution(* com.baidu.nuomi.crm.target.asp.*.*(..))" />
+            <aop:before pointcut-ref="entrance" method="doBefore"/> 
+            <aop:after pointcut-ref="entrance" method="doAfter"/>
+            <aop:around pointcut-ref="entrance" method="doAround"/>
+            <aop:after-throwing pointcut-ref="entrance" method="doThrowing" throwing="ex"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

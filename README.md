@@ -1,6 +1,7 @@
 # SelfLearningTestCode
 > 自学java练手的代码
 > 主要包括Thread相关，排序相关、集合类操作相关的代码
+> mm_test项目里主要是平时测试工具类用到的示例代码
 
 #学习计划
 * 《Thinking In Java》--java经典书籍，必须重读，不适合新手阅读。希望1-2个月看完

@@ -1,7 +1,7 @@
 package mm_test;
 
 /**
- * @Function: TODO ADD FUNCTION. <br/>
+ * 重写 hashCode 方法
  * @Date: 2016年3月7日 下午4:29:23
  * 
  * @author zhangmengmeng01@baidu.com

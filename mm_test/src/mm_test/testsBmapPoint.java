@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @Function: TODO ADD FUNCTION. <br/>
+ * 验证重写了 hashCode 方法之后是否能获取到自己想要的对象
  * @Date: 2016年3月7日 下午4:29:57
  * 
  * @author zhangmengmeng01@baidu.com

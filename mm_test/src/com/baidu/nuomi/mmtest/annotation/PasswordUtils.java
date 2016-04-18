@@ -1,6 +1,6 @@
 package com.baidu.nuomi.mmtest.annotation; 
 /** 
- * @Function: TODO ADD FUNCTION. <br/> 
+ * 带有自定义注解的方法 
  * @Date: 2016年3月23日 上午9:31:10 
  *
  * @author zhangmengmeng01@baidu.com

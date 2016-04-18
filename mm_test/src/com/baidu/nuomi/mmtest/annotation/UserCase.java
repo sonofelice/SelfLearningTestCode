@@ -6,7 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /** 
- * @Function: TODO ADD FUNCTION. <br/> 
+ * 注解类 
  * @Date: 2016年3月23日 上午9:29:08 
  *
  * @author zhangmengmeng01@baidu.com

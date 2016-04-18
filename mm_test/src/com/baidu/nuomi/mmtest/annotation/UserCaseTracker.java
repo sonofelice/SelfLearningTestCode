@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.List;
 
 /** 
- * @Function: TODO ADD FUNCTION. <br/> 
+ * 获取注解内容 
  * @Date: 2016年3月23日 上午9:43:57 
  *
  * @author zhangmengmeng01@baidu.com

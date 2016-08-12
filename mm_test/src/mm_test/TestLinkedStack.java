@@ -1,7 +1,8 @@
 package mm_test;
 
 /**
- * @Function: TODO ADD FUNCTION. <br/>
+ * 测试自定义栈的使用
+ * 
  * @Date: 2016年4月21日 上午10:59:21
  *
  * @author zhangmengmeng01@baidu.com

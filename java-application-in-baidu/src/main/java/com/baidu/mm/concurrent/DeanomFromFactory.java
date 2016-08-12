@@ -25,6 +25,6 @@ public class DeanomFromFactory implements Runnable{
             exec.execute(new DeanomFromFactory());
         }
         System.out.println("all start");
-        TimeUnit.MILLISECONDS.sleep(175);
+        TimeUnit.MILLISECONDS.sleep(500);
     }
 }
